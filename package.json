@@ -1,0 +1,39 @@
+{
+  "name": "nebula",
+  "displayName": "Nebula",
+  "description": "Nebula is a dark VS Code theme that blends the vastness of space with the playful vibrancy of candy.",
+  "version": "0.1.0",
+  "icon": "asset/icon.jpg",
+  "author": {
+    "name": "Mayank Gujrathi",
+    "url": "https://github.com/mayankgujrathi/nebula"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mayankgujrathi/nebula.git"
+  },
+  "keywords": [
+    "nebula",
+    "Nebula",
+    "color theme",
+    "color Scheme",
+    "dark",
+    "candy"
+  ],
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.88.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Nebula",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Nebula-color-theme.json"
+      }
+    ]
+  }
+}
